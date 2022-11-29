@@ -1,0 +1,52 @@
+.main-portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .button-list{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+  
+  }
+  
+  
+  
+  .button-item:not(:last-child){
+    margin-right: 8px;
+  }
+  .portfolio-button.first{
+    padding: 6px 25px;
+  
+  }
+  
+  .portfolio-button {
+    padding:6px 22px;
+  
+    cursor: pointer;
+    background-color: var(--lighter-bgc);
+    color: var(--main-ctext);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border-style: none;
+      transition: color 250ms var(--cubic),background-color 250ms var(--cubic), box-shadow 250ms var(--cubic);
+  
+       &:hover,
+       &:focus {
+        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+        
+        background-color: var(--accent-color);
+        color: var(--white);
+      }  
+    }
+  
+  
+  

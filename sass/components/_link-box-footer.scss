@@ -1,0 +1,36 @@
+.footer-text{
+    color: var(--white);
+    margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+  }
+
+  .footer-icon{
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+
+    & svg{
+        fill: var(--white)
+      }
+     &.team-icon{
+    
+        background-color: var(--icon-bcg);
+      }
+      
+  }
+  
+  .footer-icon .team-icon:hover,
+  .footer-icon .team-icon:focus{
+    background-color: var(--accent-color);
+  }
+  
+  .footer-list{
+    display: flex;
+    margin-top: 20px;
+    
+   
+  }

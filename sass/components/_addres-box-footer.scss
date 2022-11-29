@@ -1,0 +1,83 @@
+.address-box{
+  
+    margin-right: 70px;
+  }
+
+  .section-footer .logo-nav:hover,
+  .section-footer .logo-nav:focus {
+    color: var(--white); 
+    color: var(--accent-color);
+  }
+  
+  .section-footer .mail-footer:hover,
+  .section-footer .mail-footer:focus {
+    color: var(--accent-color);
+  }
+  
+  .section-footer .address-footer:hover,
+  .section-footer .address-footer:focus {
+    color: var(--accent-color);
+  }
+  
+  .section-footer .tel-footer:hover,
+  .section-footer .tel-footer:focus {
+    color: var(--accent-color);
+  }
+
+  
+  .logo-footer {
+    color: var(--white);
+    font-family: Raleway, cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    transition: color 250ms var(--cubic);
+  }
+
+  .logo.logo-nav-footer{
+    display: inline-block;
+    margin-bottom: 20px;
+  
+  }
+
+  .address-footer {
+    color: var(--white);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    transition: color 250ms var(--cubic);
+  }
+  
+  .address-item{
+    
+    padding: 0;
+    margin-bottom: 9px;
+  }
+  
+  .mail-footer {
+    color: var(--footer-ctext);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+      transition: color 250ms var(--cubic);
+  }
+  
+  .mail-item{
+    margin-bottom: 9px;
+  }
+  
+  .tel-footer {
+    color: var(--footer-ctext);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+      transition: color 250ms var(--cubic);
+  }

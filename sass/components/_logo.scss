@@ -1,0 +1,26 @@
+.page-header .logo-nav:hover,
+.page-header .logo-nav:focus {
+  color: var(--main-ctext); 
+  color: var(--accent-color);
+}
+.logo {
+    margin-right: 93px;
+  
+    color: var(--accent-color);
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+  }
+  
+  .logo-main {
+    color: var(--black);
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    transition: color 250ms var(--cubic);
+  }
+  
