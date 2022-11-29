@@ -1,5 +1,5 @@
 
- .menu-toggle {
+ .menu-toggle { 
   min-height: 40px;
   min-width: 40px;
   display: flex;
@@ -13,12 +13,11 @@
   border: none;
   border-radius: 50%;
   outline: none;
-}
-
-@media (min-width: 768px) {
-  .menu-toggle {
-    display: none;
-  }
+ }
+  @media (min-width: 768px) {
+    .menu-toggle {
+      display: none;
+    }
 }
 
 .menu-toggle:hover,
@@ -30,7 +29,7 @@
 .menu-container {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 100%;
   width: 100vw;
   height: 100vh;
   padding: 32px;
@@ -40,7 +39,7 @@
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 
-  @media screen and(max-width: 319px) {
+  @media screen and (min-width: 768px)  {
     display: none;
     
   }
