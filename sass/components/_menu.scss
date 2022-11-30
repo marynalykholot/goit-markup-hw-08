@@ -28,22 +28,30 @@
 
 .menu-container {
   position: fixed;
+  display: flex;
+  flex-direction: column;
   top: 0;
-  left: 100%;
+  left: 0;
   width: 100vw;
   height: 100vh;
   padding: 32px;
-  background-color: #3f51b5;
+  background-color: var(--white);
   z-index: 999;
+
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16),
+0px 2px 4px 0px rgba(0, 0, 0, 0.08),
+0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 
-  @media screen and (min-width: 768px)  {
+  @media screen and (max-width: 319px), (min-width: 768px) {
     display: none;
-    
-  }
+    }
 }
+  
+
 
 .menu-container.is-open {
   transform: translateX(0);
@@ -57,9 +65,20 @@
 }
 
 .mobile-menu {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  margin-bottom: auto;
   list-style: none;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+    }
+
+    &:hover,
+    &:focus{
+      color: var(--accent-color);
+
+    }
 }
 
 .mobile-menu .link {
@@ -69,7 +88,7 @@
  letter-spacing : 0.02em;
 
   display: block;
-  margin: 32px;
+ 
   color: rgba(33, 33, 33, 1);
   text-decoration: none;
 
@@ -77,4 +96,58 @@
   &:focus{
     color: var(--accent-color);
   }
+ 
 }
+.mobile-menu__list:not(:last-child) {
+margin-bottom: 32px;
+
+}
+
+.mobile-contacts__tel{
+  font-size: 34px; 
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--additional-ctext);
+
+  margin-bottom: 32px;
+  &:hover,
+  &:focus{
+    color: var(--accent-color);
+}
+}
+.mobile-contacts__mail{
+  font-size: 24px; 
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  color: var(--additional-ctext);
+  &:hover,
+  &:focus{
+    color: var(--accent-color);
+  }
+}
+
+.mobile-sosials{
+  display: flex;
+
+  font-size: 18px; 
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+
+  margin-top: 64px;
+  
+  
+}
+
+
+.mobile-sosial__list:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
+  
+}
+.mobile-sosial__list:not(:first-child) {
+  padding-left: 10px;
+}
+.mobile-sosial__list.last{
+  padding-left: 10px;
+} 
