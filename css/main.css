@@ -224,6 +224,11 @@ header {
     margin-left: auto;
   }
 }
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .auts-nav {
+    display: block;
+  }
+}
 
 .auts-nav-icon {
   margin-right: 10px;
@@ -246,12 +251,32 @@ header {
   -webkit-transition: color 250ms var(--cubic);
   transition: color 250ms var(--cubic);
 }
+@media screen and (min-width: 768) {
+  .auts-nav.list .link {
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+}
 
 .auts-nav .link:hover,
 .auts-nav .link:focus {
   color: var(--accent-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .auts-block {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .auts-block {
+    padding-block: 21px;
+  }
+  .auts-block .auts-nav-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
 .hero {
   max-width: 1600px;
   height: 600px;

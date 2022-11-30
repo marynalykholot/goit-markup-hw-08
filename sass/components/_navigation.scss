@@ -65,6 +65,10 @@
     display: flex; 
     margin-left: auto;
   }
+  @media screen and ( min-width:767px) and (max-width: 1199px) {
+    display: block;
+    
+  }
   }
   
   .auts-nav-icon{
@@ -74,6 +78,7 @@
   
   .auts-nav.list .link{
     display: flex;
+    
     align-items: center;
     margin-left: 30px;
     color: var(--additional-ctext);
@@ -82,6 +87,12 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     transition: color 250ms var(--cubic);
+
+    @media screen and (min-width:768) {
+      margin-top: 21px;
+      margin-bottom: 21px;
+      
+    }
   }
   
   
@@ -90,4 +101,19 @@
   .auts-nav .link:focus {
     color: var(--accent-color);
   }
+  .auts-block{
+    @media  screen and(min-width:1200px) {
+      margin-left: auto;
+      
+    }
+  }
   
+  @media screen and  (max-width: 1199px) {
+    .auts-block{
+      padding-block: 21px;
+      & .auts-nav-item:not(:last-child) {
+        margin-bottom: 10px;
+      }
+  
+    }
+  }
