@@ -111,8 +111,10 @@
   @media screen and  (max-width: 1199px) {
     .auts-block{
       padding-block: 21px;
+      margin: auto;
       & .auts-nav-item:not(:last-child) {
         margin-bottom: 10px;
+
       }
   
     }
