@@ -74,6 +74,17 @@
   .auts-nav-icon{
     margin-right: 10px;
     fill: currentColor;
+    @media screen and(min-width:768px) and (max-width:1199px) {
+      width: 14px;
+      height: 10px;
+    }
+  }
+
+  .auts-nav-icon.tel{
+    @media screen and(min-width:768px) and (max-width:1199px) {
+      width: 10px;
+      height: 14px;
+    }
   }
   
   .auts-nav.list .link{
