@@ -1062,6 +1062,11 @@ header {
   z-index: 1000;
   padding: 40px;
 }
+@media screen and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+  }
+}
 
 .modal-title {
   text-align: center;
