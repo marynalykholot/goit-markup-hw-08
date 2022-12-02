@@ -1054,7 +1054,7 @@ header {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 528px;
+  max-width: 528px;
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
   -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -1064,7 +1064,7 @@ header {
 }
 @media screen and (max-width: 1199px) {
   .modal {
-    width: 450px;
+    max-width: 450px;
   }
 }
 
