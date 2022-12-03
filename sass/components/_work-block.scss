@@ -23,6 +23,8 @@
   
   .work-container .list { 
   @media screen and(min-width:1200px){
+
+    gap: 30px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -30,11 +32,11 @@
   }
   }
   
-  .work-item{
-  @media screen and(min-width:1200px){
-    margin-left: 30px;
-  }
-    }
+  // .work-item{
+  // @media screen and(min-width:1200px){
+  //   margin-left: 30px;
+  // }
+    
   .work-item__blok {
     @media screen and(min-width:1200px) {  
     position: relative;
