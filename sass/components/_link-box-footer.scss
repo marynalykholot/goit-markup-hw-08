@@ -1,3 +1,10 @@
+.link-box-footer{
+  @media screen and (max-width:767.98px){
+    margin-bottom: 60px;
+    
+  }
+}
+
 .footer-text{
     color: var(--white);
     margin-bottom: 20px;
@@ -31,6 +38,9 @@
   .footer-list{
     display: flex;
     margin-top: 20px;
+    @media screen and(max-width:1199.98px) {
+      justify-content: center;
+    }
     
    
   }

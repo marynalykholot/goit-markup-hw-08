@@ -1,6 +1,9 @@
 .address-box{
-  
-    margin-right: 70px;
+  margin-bottom: 60px;
+  @media screen and(min-width: 1200px) {
+    margin: 0;
+  }
+   
   }
 
   .section-footer .logo-nav:hover,
@@ -38,7 +41,10 @@
 
   .logo.logo-nav-footer{
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
+    @media screen and (max-width:1199.98px) {
+      margin-right: 0;
+    }
   
   }
 
