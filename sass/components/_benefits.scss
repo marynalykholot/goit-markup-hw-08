@@ -65,7 +65,11 @@
 }
   
   .benefits__title{
-  
+    @media screen and(max-width:767.98) {
+      text-align: center;
+    }
+
+
     margin-bottom: 10px;
   
     color: var(--main-ctext);
@@ -73,9 +77,10 @@
     font-size: 14px;
     line-height: 0.87;
     text-transform: uppercase;
+
     
    
-    @media screen and (min-width: 480px)and (max-width:767px)
+    @media screen and (min-width: 480px)and (max-width:767.98px)
       {
       display: flex;
       align-items: center;
